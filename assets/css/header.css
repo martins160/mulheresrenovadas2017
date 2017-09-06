@@ -1,5 +1,5 @@
 .header{
-	background-image: url('../images/uploads/01.jpg');
+	background-image: url('../images/uploads/02.jpg');
 	background-position: top center;
 	background-repeat: no-repeat;
 	height: 662px;
@@ -260,7 +260,9 @@
 /*************************************************************************************************/
 @media(min-width:960px){
 
-
+.header{
+  background-image: url('../images/uploads/01.jpg'); 
+}
 
 
 .inscrever a{
