@@ -2,7 +2,7 @@
 	background-image: url('../images/uploads/02.jpg');
 	background-position: top center;
 	background-repeat: no-repeat;
-	height: 662px;
+	height: 450px;
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -262,18 +262,49 @@
 
 .header{
   background-image: url('../images/uploads/01.jpg'); 
+  height: 662px;
 }
 
+.logo{
+  position: absolute;
+  left: 0px;
+  top: 220px;
+  text-align: left;
+  align-items: center;
+}
+
+.logo img{
+  float: right;
+  margin: 0 50px 0 0;
+}
+
+
+.inscrever{
+  position: absolute;
+  left: 0px;
+  top: 270px;
+  text-align: left;
+
+}
 
 .inscrever a{
-	font-size: 46px !important;
-	font-weight: bold;
-	padding: 10px 15px;
+  font-weight: bold;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 540px;
 }
 
+.txt{
+  font-size: 50px !important;
+}
+
+
 .play{
-	font-size: 46px !important;
-	margin: 0 15px 0 0;
+  font-size: 50px !important;
+  margin: 6px 15px 0 0;
 
 }
 
