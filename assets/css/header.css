@@ -10,7 +10,7 @@
 .logo{
 	position: absolute;
 	left: 0px;
-	top: 180px;
+	top: 120px;
 	text-align: left;
 	align-items: center;
 }
@@ -25,20 +25,23 @@
 .inscrever{
 	position: absolute;
 	left: 0px;
-	top: 230px;
+	top: 150px;
 	text-align: left;
 }
 
 .inscrever a{
-	font-size: 18px !important;
 	font-weight: bold;
 	padding: 10px 5px;
-
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
 }
+
+.txt{
+	font-size: 18px !important;
+}
+
 
 .play{
 	font-size: 18px !important;
